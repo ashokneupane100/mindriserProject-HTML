@@ -6,7 +6,7 @@
     <title>Forms</title>
   </head>
   <body>
-    <form action="results.html" method="POST" enctype="multipart/form-data">
+    <form action="mailto:ashokabrother@gmail.com" method="POST" enctype="multipart/form-data">
       <fieldset>
         <legend>Personal Information</legend>
         <div>
@@ -32,15 +32,26 @@
         <div>
           Favorite Food:
           <label for="banana">Banana</label>
-          <input type="checkbox" name="banana" id="banana" />
+          <input type="checkbox" name="favorite_food" id="banana" value="banana" />
           <label for="apple">Apple</label>
-          <input type="checkbox" name="apple" id="apple" />
+          <input type="checkbox" name="favorite_food" id="apple" value="apple" />
           <label for="orange">Orange</label>
-          <input type="checkbox" name="orange" id="orange" />
+          <input type="checkbox" name="favorite_food" id="orange" value="orange" />
         </div>
+        <br> <br>
+        <div>
+          Habits:
+          <label for="drinking">Drinking</label>
+          <input type="checkbox" name="habits" id="drinking" value="drinking" />
+          <label for="smoking">Smoking</label>
+          <input type="checkbox" name="habits" id="smoking" value="smoking" />
+          <label for="coding">Coding</label>
+          <input type="checkbox" name="habits" id="coding" value="coding" />
+        </div>
+        <br><br>
         <div>
           <label for="age">Age</label>
-          <input type="number" name="age" id="age" min="1" max="200" step="3" />
+          <input type="number" name="age" id="age" min="1" max="200" step="1" />
         </div>
         <div>
           Gender:
@@ -70,7 +81,7 @@
         </div>
         <div>
           <label for="bio">Bio</label>
-          <textarea name="bio" id="bio"></textarea>
+          <textarea name="bio" id="bio">inpur about yourself</textarea>
         </div>
         <div>
           <label for="file">File</label>
